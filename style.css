@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-image:url(Assets/Images/bg.jpg) ;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #192043;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 13px;
+}
+
+.container {
+    width: 80%;
+    height: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: auto;
+    column-gap: 10px;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.logokiri {
+    width: 10%;
+    height: auto;
+    margin: 10px;
+}
+
+.logokiri img {
+    width: 100px;
+    height: auto;
+}
+
+.menu-kanan {
+    width: 90%;
+    height: auto;
+    max-height: 100px;
+    margin: 10px 25px 10px 40px;
+    border-left: 1px solid gray;
+}
+
+.navbar-atas {
+    display: grid;
+    grid-template-columns: 25% 65% 5%;
+    grid-template-rows: 20px;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding: 15px 0 15px 35px;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 20% 50%;
+    grid-template-rows: auto;
+    justify-content: start;
+}
+
+.contact img {
+    width: 20px;
+    height: auto;
+}
+
+.contact:nth-child(2) {
+    display: grid;
+    grid-template-columns: 7% 25%;
+    grid-template-rows: auto;
+    justify-content: start;
+}
+
+.contact p {
+    font-weight: bold;
+}
+
+.contact:nth-child(2) p {
+    background-color: #6a6f88;
+    border-radius: 10px;
+    background-color: #dddade;
+    padding: 5px 10px 0 15px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.contact:nth-child(3) img {
+    margin-right: 20px;
+}
+
+.navbar-bawah {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: auto;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.menu-bawah ul {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    grid-template-rows: 20px;
+    grid-gap: 20px;
+    padding-left: 30px;
+}
+
+.menu-bawah:nth-child(1) ul li a {
+    color: #192043;
+}
+
+.menu-bawah:nth-child(2){
+    margin-bottom: 30px;
+}
+
+.dropdown .dropdown-btn {
+    font-size: 15px;
+    border: none;
+    outline: none;
+    color: #192043;
+    font-weight: 700;
+    background: none;
+}
+.dropdown:hover .dropdown-bg {
+    display: block;
+}
+.dropdown-bg {
+    display: none;
+}
+.dropdown-bg img {
+    width: 30px;
+    height: auto;
+    margin: 0 0 -15px 10px;
+}
+.dropdown-isi {
+    background: #ffffff;
+    border-radius: 5px;
+    width: 160px;
+    height: auto;
+    padding: 20px 0 20px 0;
+    position: absolute;
+    text-align: left;
+    margin: 0 0 0 -55px;
+}
+.dropdown-isi ul{
+    display: flex;
+    flex-direction: column;
+
+}
+.dropdown-isi ul li a {
+    font-size: 13px;
+    color: #b1b1b1;
+    font-weight: 600;
+}
+.dropdown-isi ul li {
+    margin: 0 ;
+}
+.dropdown-isi ul li a:hover {
+    color: #192043;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    display: flex;
+    max-width: 50%;
+    flex-direction: column;
+}
+
+.text h1 {
+    margin-top: 60px;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.text p {
+    font-size: 20px;
+}
+
+.button button {
+    padding: 10px 40px;
+    font-weight: bold;
+    margin: 40px 20px 0 0;
+    border: 1px solid #6a6f88;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.button button:nth-child(1) {
+    color: #ffffff;
+    background: #05b649;
+    border: 1px solid transparent;
+}
+
+.button button:nth-child(1):hover {
+    background: transparent;
+    border: 1px solid gray;
+    color:black ;
+}
+
+.button button:nth-child(2) {
+    background: transparent;
+    padding: 10px 25px;
+}  
+
+.button button:nth-child(2):hover {
+    background: #05b649;
+    border: transparent;
+    color:  white;
+}  
+
+.label {
+    margin-top: 70px;
+}
+
+.label img {
+    width: 75px;
+    height: auto;
+    margin-right: 20px;
+}
